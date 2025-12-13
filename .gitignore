@@ -1,0 +1,24 @@
+# ---------- SSH & KEYS ----------
+*.pem
+*.key
+*.pub
+.ssh/
+
+# ---------- AWS ----------
+.aws/
+*.tfstate
+*.tfstate.backup
+
+# ---------- Ansible ----------
+*.retry
+ansible.cfg
+
+# ---------- Editors / Tools ----------
+.vscode/
+.vscode-server/
+
+# ---------- OS / TEMP ----------
+*.log
+*.tmp
+.DS_Store
+
