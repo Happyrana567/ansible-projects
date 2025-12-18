@@ -1,0 +1,6 @@
+- name: Verify connectivity to all managed nodes
+  hosts: all
+  tasks:
+    - name: Ping nodes
+      ping:
+
